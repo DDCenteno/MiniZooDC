@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(252, 205, 135);
+}
+body h1{
+    color: orangered;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px black;
+}
+body div{
+    margin: 20px auto;
+    width: 70%;
+}
+body div img{
+    padding: 5px;
+}
+body .selection{
+    border-radius: 20px;
+    margin-left: 44%;
+    border: none;
+    padding: 10px;
+    background-color: rgb(255, 227, 179);
+}
+.animal {
+    width: 300px;
+    height: 300px;
+    margin: 0;
+}
+
+.negative-colors {
+    filter:invert(.8);
+    -ms-filter: invert(.8);
+    -moz-filter:invert(.8);
+    -o-filter:invert(.8);
+    -webkit-filter: invert(.8);
+}
+.sepia {
+    filter: sepia(1);
+    -webkit-filter: sepia(1);
+    -moz-filter: sepia(1);
+    -o-filter:sepia(1);
+    -ms-filter:sepia(1);
+}
+.white-black {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+}
